@@ -5,7 +5,7 @@ import ClassCompParent from '../PropsWithClassComp/ClassCompParent';
 export const Landing = () => {
     return (
         <div>
-            {/* <ParentVarr /> */}
+            <ParentVarr />
             <ClassCompParent />
         </div>
     );
