@@ -7,6 +7,7 @@ export default class ClassCompParent extends Component {
             {name:"Thor", age: 35},
             {name:"Iron-Man", age: 36},
             {name:"Spider-Man", age: 25},
+            {name:"SuperMan", age: 40},
         ],
     }
 
@@ -17,6 +18,7 @@ export default class ClassCompParent extends Component {
 <ClassCompChild name={this.state.person[0].name} age={this.state.person[0].age} />      
 <ClassCompChild name={this.state.person[1].name} age={this.state.person[1].age} />  
 <ClassCompChild name={this.state.person[2].name} age={this.state.person[1].age} />
+<ClassCompChild name={this.state.person[3].name} age={this.state.person[3].age} />
 
             </div>
         )
