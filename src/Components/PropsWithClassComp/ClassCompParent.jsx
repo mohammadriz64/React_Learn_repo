@@ -1,12 +1,20 @@
-import React, { Component } from 'react'
-import ClassCompChild from './ClassCompChild'
+import React, { Component } from 'react';
+import ClassCompChild from "../PropsWithClassComp/ClassCompChild";
 
 export default class ClassCompParent extends Component {
+    state= {
+        person:[
+            {name:"Thor", age: 35},
+            {name:"Iron-Man", age: 36},
+            {name:"Spider-Man", age: 25},
+        ],
+    }
+
     render() {
         return (
             <div>
-            <ClassCompChild name="Mohammed rizwan" age="25" />    
-            <ClassCompChild name="Aadil Hashmi" age="25" />    
+                
+<ClassCompChild name={this.state.person[0].name} age={this.state.person[0].age} />      
             </div>
         )
     }
