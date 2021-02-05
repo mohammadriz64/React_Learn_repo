@@ -21,6 +21,17 @@ export default class ClassCompParent extends Component {
 
       });
   };
+  changeAgeHandler =() => {
+      this.setState({
+          person :[
+            { name: "Hashmi", age: 25 },
+            { name: "Rahul", age: 47 },
+            { name: "Spider", age: 31 },
+            { name: "David", age: 41 },
+          ],
+
+      });
+  };
 
   render() {
     return (
@@ -42,6 +53,7 @@ export default class ClassCompParent extends Component {
           age={this.state.person[3].age}
         />
         <button onClick={this.changeNameHandler} >ClickButton</button>
+        <button onClick={this.changeAgeHandler} >ClickButton</button>
       </div>
     );
   }
