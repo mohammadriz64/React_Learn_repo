@@ -10,7 +10,7 @@ export default class ClassCompParent extends Component {
       { name: "SuperMan", age: 40 },
     ],
   };
-  changeNameHandler =() => {
+  changeNameHandler = () => {
       this.setState({
           person :[
             { name: "HeMan", age: 40 },
@@ -39,6 +39,7 @@ export default class ClassCompParent extends Component {
         <ClassCompChild
           name={this.state.person[0].name}
           age={this.state.person[0].age}
+          kuchbhi={this.changeNameHandler}
         />
         <ClassCompChild
           name={this.state.person[1].name}
@@ -51,6 +52,7 @@ export default class ClassCompParent extends Component {
         <ClassCompChild
           name={this.state.person[3].name}
           age={this.state.person[3].age}
+          
         />
         <button onClick={this.changeNameHandler} >ClickButton</button>
         <button onClick={this.changeAgeHandler} >ClickButton</button>
