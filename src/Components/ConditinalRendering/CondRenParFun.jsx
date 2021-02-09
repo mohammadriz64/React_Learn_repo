@@ -29,6 +29,15 @@ export const CondRenParFun = () => {
         });
 
     }
+    const handleInputCh= (event) => {
+        setPersonData({
+            info:[
+                {name: event.target.value , course:"duheu"},
+            ],
+
+        });
+
+    }
     return (
         <div>
             <button onClick={handleNameChange}>Change State</button>
@@ -36,6 +45,7 @@ export const CondRenParFun = () => {
            first={personData.info[0].name}
            firstAge={personData.info[0].course}
            clickPara={handleOnPara}
+           inputCh={handleInputCh}
            />
         </div>
     );
