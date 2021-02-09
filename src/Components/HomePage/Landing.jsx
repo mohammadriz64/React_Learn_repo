@@ -1,6 +1,7 @@
 import React from 'react';
 import PropsPar from '../Body/PropsPar';
 import { ParentVarr } from "../Child/ParentVarr";
+import { CondRenParFun } from '../ConditinalRendering/CondRenParFun';
 import ClassCompParent from '../PropsWithClassComp/ClassCompParent';
 
 export const Landing = () => {
@@ -9,6 +10,7 @@ export const Landing = () => {
             <ParentVarr />
             <ClassCompParent />
             <PropsPar/>
+            <CondRenParFun/>
         </div>
     );
 };
