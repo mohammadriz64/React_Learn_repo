@@ -5,8 +5,8 @@ const PropsPar = () => {
     return (
         <div>
             <PropsCh name="Bruce" heroName="Batman"/>
-            {/* <PropsCh name="John" heroname="Spiderman"/>
-            <PropsCh name="Diana" heroName="Wonderwoman"/> */}
+            <PropsCh name="John" heroname="Spiderman"/>
+            <PropsCh name="Diana" heroName="Wonderwoman"/>
 
             
         </div>
