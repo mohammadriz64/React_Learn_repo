@@ -32,7 +32,7 @@ export const CondRenParFun = () => {
     const handleInputCh= (event) => {
         setPersonData({
             info:[
-                {name: event.target.value , course:"duheu"},
+                {name: event.target.value , course:"react js"},
             ],
 
         });
