@@ -1,9 +1,11 @@
 import React from 'react';
+import { useState } from 'react';
 
-export const CondRenChilFun = () => {
+export const CondRenChilFun = (item) => {
+    
     return (
         <div>
-           <p>This is Rizwan and I'm Learning React Js</p> 
+           <p>This is {item.first} and I'm Learning {item.firstAge}</p> 
         </div>
     );
 };
