@@ -1,12 +1,14 @@
 import React from 'react';
-import { ParentVarr } from "../Child/ParentVarr";
-import ClassCompParent from '../PropsWithClassComp/ClassCompParent';
+import PropsPar from '../Body/PropsPar';
+// import { ParentVarr } from "../Child/ParentVarr";
+// import ClassCompParent from '../PropsWithClassComp/ClassCompParent';
 
 export const Landing = () => {
     return (
         <div>
-            <ParentVarr />
-            <ClassCompParent />
+            {/* <ParentVarr />
+            <ClassCompParent /> */}
+            <PropsPar/>
         </div>
     );
 };
