@@ -1,11 +1,10 @@
 import React from 'react';
-import { useState } from 'react';
 
 export const CondRenChilFun = (item) => {
     
     return (
         <div>
-           <p>This is {item.first} and I'm Learning {item.firstAge}</p> 
+           <p onClick={item.clickPara}>This is {item.first} and I'm Learning {item.firstAge}</p> 
         </div>
     );
 };

@@ -9,18 +9,34 @@ export const CondRenParFun = () => {
 
         ],
     });
-    // const handleNameChange=()=>{
-    //     setPersonData(personData);
+    const handleNameChange= () => {
+        setPersonData({
+            info:[
+                {name:"Aamer Sohel",course:"Front End"},
+                {name:"Salman Khan",course:"Data Base"},
+    
+            ],
 
+        });
 
+    }
+    const handleOnPara= () => {
+        setPersonData({
+            info:[
+                {name:"John Wick",course:"Hollywood"},
+            ],
+
+        });
+
+    }
     return (
         <div>
-            {/* <button onClick={handleNameChange}>Change State</button> */}
+            <button onClick={handleNameChange}>Change State</button>
            <CondRenChilFun
            first={personData.info[0].name}
-           firstAge={personData.info[0].course}/> 
-           <CondRenChilFun/> 
-           <CondRenChilFun/> 
+           firstAge={personData.info[0].course}
+           clickPara={handleOnPara}
+           />
         </div>
     );
 };
