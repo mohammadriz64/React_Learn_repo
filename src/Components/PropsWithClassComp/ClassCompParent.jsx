@@ -47,7 +47,7 @@ export default class ClassCompParent extends Component {
         />
         <ClassCompChild
           name={this.state.person[2].name}
-          age={this.state.person[1].age}
+          age={this.state.person[2].age}
         />
         <ClassCompChild
           name={this.state.person[3].name}

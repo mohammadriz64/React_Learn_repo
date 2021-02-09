@@ -7,8 +7,7 @@ const PropsPar = () => {
             <PropsCh name="Bruce" heroName="Batman"/>
             <PropsCh name="John" heroname="Spiderman"/>
             <PropsCh name="Diana" heroName="Wonderwoman"/>
-
-            
+            <p>This is Childern Props..!!!!</p>
         </div>
     );
 };
