@@ -9,11 +9,11 @@ export const CondRenParFun = () => {
 
         ],
     });
-    const handleNameChange= () => {
+    const handleNameChange= (name1,name2) => {
         setPersonData({
             info:[
-                {name:"Aamer Sohel",course:"Front End"},
-                {name:"Salman Khan",course:"Data Base"},
+                {name: name1, course: name2},
+                {name: "Zahour" ,course:"Data Base"},
     
             ],
 
@@ -40,7 +40,7 @@ export const CondRenParFun = () => {
     }
     return (
         <div>
-            <button onClick={handleNameChange}>Change State</button>
+            <button onClick={()=>handleNameChange("Imran","Node Js")}>Change State</button>
            <CondRenChilFun
            first={personData.info[0].name}
            firstAge={personData.info[0].course}
