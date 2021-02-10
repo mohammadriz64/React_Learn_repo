@@ -14,6 +14,9 @@ const CounterPract = () => {
     const handleImage = () =>{
         setAddNumber(<img src="logo512.png"/>);
     }
+    const handleImgPara = () =>{
+        setAddNumber(<img src="logo192.png"/>);
+    }
 
     return (
         <div>
@@ -22,6 +25,7 @@ const CounterPract = () => {
             <button onClick={handleDeleteCounter}>Delete</button>
             <button onClick={handleDelCounter.bind(addNumber,2)}>Delete</button> <br/> <br/>
             <button onClick={handleImage}>Load Image</button>
+            <p onClick={handleImgPara}>Load Image</p>
         </div>
     );
 };
