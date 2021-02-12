@@ -16,10 +16,12 @@ export const MapParent = () => {
     return (
         <div>
             {/* mapping starts here */}
-            {details.map((fetchedDetails)=>{})}
+            {details.map((fetchedDetails)=>{
+                return <MapChild companyName={fetchedDetails.Company}/>
+            })}
 
 
-            <MapChild/>
+            
         </div>
     );
 };
