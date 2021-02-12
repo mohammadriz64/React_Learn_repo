@@ -3,7 +3,7 @@ import { MapChild } from './MapChild';
 
 export const MapParent = () => {
     const [personData,setPersonData]=useState({
-        details:[
+        companyDetails:[
             {Company:"Audi", Car:"A8"},
             {Company:"BMW", Car:"M3"},
             {Company:"Hyundai", Car:"i20"},
@@ -16,7 +16,7 @@ export const MapParent = () => {
     return (
         <div>
             {/* mapping starts here */}
-            {details.map((fetchedDetails)=>{
+            {personData.companyDetails.map((fetchedDetails)=>{
                 return <MapChild companyName={fetchedDetails.Company}
                 companyCar={fetchedDetails.Car}
                 />
