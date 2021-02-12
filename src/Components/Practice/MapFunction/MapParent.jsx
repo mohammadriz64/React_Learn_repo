@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import { MapChild } from './MapChild';
 
 export const MapParent = () => {
@@ -15,6 +15,10 @@ export const MapParent = () => {
    
     return (
         <div>
+            {/* mapping starts here */}
+            {details.map((fetchedDetails)=>{})}
+
+
             <MapChild/>
         </div>
     );
