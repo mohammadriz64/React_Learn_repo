@@ -10,10 +10,10 @@ export const DisplayHide = () => {
             <div>
             {show &&(<h2>Hello EveryOne</h2>)}
             
-            {/* <button onClick={()=>setShow(!show)}>SHOW</button> */}
+            <button onClick={()=>setShow(!show)}>SHOW</button>
             {/* <button onClick={handledisplay}>SHOW</button> */}
             {/* <button onClick={()=>setShow(false)}>HIDE</button> */}
-            <button onClick={()=>setShow(!show)}>Toggle</button>
+            {/* <button onClick={()=>setShow(!show)}>Toggle</button> */}
         </div>
         </div>
     );
