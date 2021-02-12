@@ -11,7 +11,7 @@ export const DisplayHide = () => {
             <div>
             {show ?(<div><h2>Hello EveryOne</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae iure sunt et nulla illo accusantium enim incidunt numquam unde. Excepturi!</p>
-            {/* <input type="text"/> */}
+            <input type="text"/>
             </div>):null}
             
             {/* <button onClick={()=>setShow(show)}>SHOW</button> */}
