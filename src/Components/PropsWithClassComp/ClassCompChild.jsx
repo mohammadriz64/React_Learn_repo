@@ -19,4 +19,3 @@ export default class ClassCompChild extends Component {
 // export default ClassCompChild;
 
 
-

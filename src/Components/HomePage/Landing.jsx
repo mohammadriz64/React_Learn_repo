@@ -1,6 +1,7 @@
 import React from 'react';
 import PropsPar from '../Body/PropsPar';
 import { ParentVarr } from "../Child/ParentVarr";
+import PropWithClass from '../Child/PropWithClass';
 import { CondRenParFun } from '../ConditinalRendering/CondRenParFun';
 import CounterPract from '../Practice/UseStatePractice/CounterPract/CounterPract';
 import {DisplayHide} from '../Practice/UseStatePractice/CounterPract/DisplayHide';
@@ -15,6 +16,7 @@ export const Landing = () => {
             <CondRenParFun/>
             <CounterPract/>
             <DisplayHide/>
+            <PropWithClass/>
         </div>
     );
 };

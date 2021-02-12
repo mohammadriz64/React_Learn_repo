@@ -7,13 +7,16 @@ export const DisplayHide = () => {
     }
     return (
         <div>
+            <button onClick={()=>setShow(!show)}>Toggle</button>
             <div>
-            {show &&(<h2>Hello EveryOne</h2>)}
+            {show ?(<div><h2>Hello EveryOne</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae iure sunt et nulla illo accusantium enim incidunt numquam unde. Excepturi!</p>
+            {/* <input type="text"/> */}
+            </div>):null}
             
-            <button onClick={()=>setShow(show)}>SHOW</button>
+            {/* <button onClick={()=>setShow(show)}>SHOW</button> */}
             {/* <button onClick={handledisplay}>SHOW</button> */}
             {/* <button onClick={()=>setShow(false)}>HIDE</button> */}
-            {/* <button onClick={()=>setShow(!show)}>Toggle</button> */}
         </div>
         </div>
     );
