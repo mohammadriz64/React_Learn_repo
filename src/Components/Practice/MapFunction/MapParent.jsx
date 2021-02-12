@@ -17,7 +17,9 @@ export const MapParent = () => {
         <div>
             {/* mapping starts here */}
             {details.map((fetchedDetails)=>{
-                return <MapChild companyName={fetchedDetails.Company}/>
+                return <MapChild companyName={fetchedDetails.Company}
+                companyCar={fetchedDetails.Car}
+                />
             })}
 
 
