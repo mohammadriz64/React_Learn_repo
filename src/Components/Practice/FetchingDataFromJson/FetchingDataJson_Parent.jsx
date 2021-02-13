@@ -5,7 +5,11 @@ import { About_Placement_Reducer } from '../UseStatePractice/State/Reducer/About
 export const FetchingDataJson_Parent = () => {
     return (
         <div>
-            <FetchingDataJson_Child/>
+            {About_Placement_Reducer.visitingRecruiters.map((fetchedDetails)=>{
+            
+            return <FetchingDataJson_Child/>
+            })}
+            
         </div>
     );
 };
