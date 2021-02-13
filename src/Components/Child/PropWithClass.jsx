@@ -5,7 +5,7 @@ export default class PropWithClass extends Component {
     render() {
         return (
             <div>
-                {/* <PropChildClass name="Amjad"/> */}
+                <PropChildClass name="Amjad" position="PickupBiz Head"/>
             </div>
         )
     }

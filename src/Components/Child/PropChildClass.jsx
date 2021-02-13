@@ -4,7 +4,7 @@ export default class PropChildClass extends Component {
     render() {
         return (
             <div>
-                <p>{this.props.name}</p>
+                <p>Name:"{this.props.name}"" , Position:"{this.props.position}"</p>
             </div>
         )
     }
