@@ -7,7 +7,7 @@ export const FetchingDataJson_Parent = () => {
         <div>
             {About_Placement_Reducer.visitingRecruiters.map((fetchedDetails)=>{
             
-            return <FetchingDataJson_Child/>
+            return <FetchingDataJson_Child itemCurrent={item}/>
             })}
             
         </div>
