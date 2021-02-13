@@ -1,0 +1,17 @@
+.card_data{
+    display: inline-block;
+}
+.card_detailing{
+    border-style: groove;
+    border-radius: 10px;
+    margin: 10px
+}
+.card_img{
+    width: 260px;
+    height: 250px;
+    margin: 10px;
+    border-style: inset ;
+}
+.card_button{
+    margin-bottom:20px ;
+}

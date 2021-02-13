@@ -1,20 +1,34 @@
-import React from 'react';
-import { Card,Button } from 'react-bootstrap';
+import React from "react";
+import { Card, Button } from "react-bootstrap";
+import "./Style.css";
 
-export const FetchingDataJson_Child = () => {
-    return (
-        <div>
-            <Card style={{ width: '18rem',border:"1px solid green",margin:"10%"}}>
-  <Card.Img style={{width:"260px",height:"400",padding:"10px"}} variant="top" src="placement.png" />
-  <Card.Body>
-    <Card.Title>Placement</Card.Title>
-    <Card.Text>
-        This is to inform All students that many companies will visit our campus for hiring student in various fields.
-     
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
-        </div>
-    );
+export const FetchingDataJson_Child = ({ itemCurrent }) => {
+  return (
+    <div className="card_data">
+      <Card className="card_detailing">
+        <Card.Img
+          className="card_img"
+          variant="top"
+          src={itemCurrent.image}
+          alt="images"
+        />
+        <Card.Body>
+          <Card.Title>
+            {itemCurrent.name} {itemCurrent.field}
+          </Card.Title>
+          <Card.Text>
+            {itemCurrent.required} <br />
+            <p style={{ textAlign: "center" }}>
+              This is to inform All students that
+              <br /> many companies will visit our campus
+              <br /> for hiring student in various fields.
+            </p>
+          </Card.Text>
+          <Button className="card_button" variant="primary">
+            Go somewhere
+          </Button>
+        </Card.Body>
+      </Card>
+    </div>
+  );
 };

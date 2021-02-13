@@ -5,9 +5,9 @@ import { About_Placement_Reducer } from '../UseStatePractice/State/Reducer/About
 export const FetchingDataJson_Parent = () => {
     return (
         <div>
-            {About_Placement_Reducer.visitingRecruiters.map((fetchedDetails)=>{
+            {About_Placement_Reducer.visitingRecruiters.map((item)=>{
             
-            return <FetchingDataJson_Child itemCurrent={item}/>
+            return <FetchingDataJson_Child itemCurrent={item}/>;
             })}
             
         </div>
