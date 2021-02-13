@@ -1,11 +1,11 @@
 import React from 'react';
-import { Card } from 'react-bootstrap';
+import { Card,Button } from 'react-bootstrap';
 
 export const FetchingDataJson_Child = () => {
     return (
         <div>
             <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="holder.js/100px180" />
+  <Card.Img variant="top" src="placement.png" />
   <Card.Body>
     <Card.Title>Card Title</Card.Title>
     <Card.Text>
