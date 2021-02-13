@@ -3,6 +3,7 @@ import PropsPar from '../Body/PropsPar';
 import { ParentVarr } from "../Child/ParentVarr";
 import PropWithClass from '../Child/PropWithClass';
 import { CondRenParFun } from '../ConditinalRendering/CondRenParFun';
+import { FetchingDataJson_Parent } from '../Practice/FetchingDataFromJson/FetchingDataJson_Parent';
 import { MapParent } from '../Practice/MapFunction/MapParent';
 import CounterPract from '../Practice/UseStatePractice/CounterPract/CounterPract';
 import {DisplayHide} from '../Practice/UseStatePractice/CounterPract/DisplayHide';
@@ -19,6 +20,7 @@ export const Landing = () => {
             <DisplayHide/>
             <PropWithClass/>
             <MapParent/>
+            <FetchingDataJson_Parent/>
         </div>
     );
 };
