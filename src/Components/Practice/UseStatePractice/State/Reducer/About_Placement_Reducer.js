@@ -3,7 +3,7 @@ export const About_Placement_Reducer = {
             id: "1asdf",
             name: "TCS",
             field: "IT",
-            required: "Ten Candidates"
+            required: "Ten Candidates",
         },
 
         {
@@ -19,7 +19,7 @@ export const About_Placement_Reducer = {
             field: "Mechanical",
             required: "Eight Candidates",
         },
-        
+
         {
             id: "4asdf",
             name: "Kirlosker",
