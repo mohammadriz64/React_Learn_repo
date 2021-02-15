@@ -14,7 +14,7 @@ const IncDecNum = () => {
                 <div className="center_div">
                     <div className="btn_div">
                         <h1> {} </h1>
-                        <button className="btn_style">Addition</button>
+                        <button className="btn_style"onClick={addNumber}>Addition</button>
                         <button className="btn_style">Subtraction</button>
                     </div>
                 </div>
