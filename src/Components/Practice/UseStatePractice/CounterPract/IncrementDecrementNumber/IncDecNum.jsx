@@ -8,7 +8,11 @@ const IncDecNum = () => {
         setNumber(number+1);
     }
    const subNumber=()=>{
+       if(number>0){
         setNumber(number-1);
+       }else{
+           setNumber(0);
+       }
     }
 
     return (
