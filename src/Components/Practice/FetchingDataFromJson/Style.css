@@ -1,5 +1,7 @@
 .card_data{
     display: inline-block;
+    font-size: 14px;
+    font-family: cursive;
 }
 .card_detailing{
     border-style: groove;

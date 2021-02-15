@@ -4,7 +4,7 @@ export const About_Placement_Reducer = {
             name: "TCS",
             field: "IT",
             required: "Ten Candidates",
-            image:"https://static.toiimg.com/photo/72975551.cms"
+            image: "https://static.toiimg.com/photo/72975551.cms"
         },
 
         {
@@ -12,7 +12,7 @@ export const About_Placement_Reducer = {
             name: "Infosys",
             field: "IT",
             required: "Six Candidates",
-            image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs06P87bcyvN_TKf0k4uo0YzgQtIyWF8ctPQ&usqp=CAU"
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs06P87bcyvN_TKf0k4uo0YzgQtIyWF8ctPQ&usqp=CAU"
         },
 
         {
@@ -20,7 +20,7 @@ export const About_Placement_Reducer = {
             name: "Tata",
             field: "Mechanical",
             required: "Eight Candidates",
-            image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR98O6kDevG0Pzh6CTyY3pWaY5yYazAjmLCQA&usqp=CAU"
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR98O6kDevG0Pzh6CTyY3pWaY5yYazAjmLCQA&usqp=CAU"
         },
 
         {
@@ -28,7 +28,7 @@ export const About_Placement_Reducer = {
             name: "Kirlosker",
             field: "Mechanical",
             required: "Eleven Candidates",
-            image:"https://image.freepik.com/free-vector/flat-follow-us-background_23-2148053370.jpg"
+            image: "https://image.freepik.com/free-vector/flat-follow-us-background_23-2148053370.jpg"
         },
     ],
 };
