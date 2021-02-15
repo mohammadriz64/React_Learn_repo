@@ -39,5 +39,7 @@ h1{
 }
 .btn_div{
     width: 100%;
-    
+    justify-content: space-around;
+    align-items: center;
+
 }
