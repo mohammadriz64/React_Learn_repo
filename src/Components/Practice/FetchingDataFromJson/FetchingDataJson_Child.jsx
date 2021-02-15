@@ -8,7 +8,7 @@ export const FetchingDataJson_Child = ({ itemCurrent }) => {
       <Card className="card_detailing">
         <Card.Img
           className="card_img"
-          variant="top"
+          variant="left"
           src={itemCurrent.image}
           alt="images"
         />
