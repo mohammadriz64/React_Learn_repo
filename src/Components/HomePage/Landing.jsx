@@ -7,6 +7,7 @@ import { FetchingDataJson_Parent } from '../Practice/FetchingDataFromJson/Fetchi
 import { MapParent } from '../Practice/MapFunction/MapParent';
 import CounterPract from '../Practice/UseStatePractice/CounterPract/CounterPract';
 import {DisplayHide} from '../Practice/UseStatePractice/CounterPract/DisplayHide';
+import IncDecNum from '../Practice/UseStatePractice/CounterPract/IncrementDecrementNumber/IncDecNum';
 import ClassCompParent from '../PropsWithClassComp/ClassCompParent';
 
 export const Landing = () => {
@@ -21,6 +22,7 @@ export const Landing = () => {
             <PropWithClass/>
             <MapParent/>
             <FetchingDataJson_Parent/>
+            <IncDecNum/>
         </div>
     );
 };
