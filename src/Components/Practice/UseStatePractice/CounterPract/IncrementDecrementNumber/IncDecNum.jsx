@@ -11,6 +11,7 @@ const IncDecNum = () => {
        if(number>0){
         setNumber(number-1);
        }else{
+           alert('Sorry.Limit Reached.!!!')
            setNumber(0);
        }
     }
