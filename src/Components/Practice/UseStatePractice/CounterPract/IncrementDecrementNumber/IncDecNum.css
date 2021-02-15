@@ -27,4 +27,11 @@ h1{
     color: white;
     background: transparent;
     font-size: 50px;
+    background-color: #30336b;
+    padding: 6px 0 2px 0;
+    width: 100%;
+    box-shadow: 5px 5px 15px -5px black;
+}
+.btn_style{
+    
 }
