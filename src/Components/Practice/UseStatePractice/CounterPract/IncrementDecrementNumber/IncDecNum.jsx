@@ -1,6 +1,8 @@
 import React from 'react';
+import './IncDecNum.css';
 
 const IncDecNum = () => {
+    
     return (
         <div>
             <div className="main_div">
