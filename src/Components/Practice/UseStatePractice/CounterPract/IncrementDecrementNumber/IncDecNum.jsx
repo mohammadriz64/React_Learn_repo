@@ -5,7 +5,10 @@ const IncDecNum = () => {
     const [number,setNumber] = useState(0);
 
    const addNumber=()=>{
-        setNumber(number+1)
+        setNumber(number+1);
+    }
+   const subNumber=()=>{
+        setNumber(number-1);
     }
 
     return (
@@ -14,8 +17,8 @@ const IncDecNum = () => {
                 <div className="center_div">
                     <div className="btn_div">
                         <h1> {} </h1>
-                        <button className="btn_style"onClick={addNumber}>Addition</button>
-                        <button className="btn_style">Subtraction</button>
+                        <button className="btn_style" onClick={addNumber}>Addition</button>
+                        <button className="btn_style" onClick={subNumber}>Subtraction</button>
                     </div>
                 </div>
             </div>
