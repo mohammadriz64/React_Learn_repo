@@ -1,3 +1,15 @@
+.main_div{
+    width: 90%;
+    height: 100vh;
+    background-color: #badc58;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-style: outset;
+
+}
 .center_div{
     width: 25%;
     height: 60vh;
