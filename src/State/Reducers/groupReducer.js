@@ -3,4 +3,11 @@ const groupReducer =()=>{
 
 }
 
-const groupsDefaultState     //we can use groupsInitialState too
+const groupsDefaultState={     //we can use groupsInitialState too
+groups:[
+    {},
+    {},
+    {},
+
+],
+}
