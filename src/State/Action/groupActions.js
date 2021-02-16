@@ -4,7 +4,5 @@ export const addNewGroup =(name,id)=>({
     groups:{
         name,
         id,
-    }
-
-
-})
+    },
+});
