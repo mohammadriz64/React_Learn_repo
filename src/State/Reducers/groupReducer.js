@@ -4,7 +4,7 @@ const groupReducer = (state = groupsDefaultState, action) => {
             //(...)this triple dot is spread operator to copy state
             return {
                 ...state,
-                groups:{action,group,...state,group}
+                groups:[...state.groups,action.groups]
             }
     }
 };
