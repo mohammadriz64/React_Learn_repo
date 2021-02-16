@@ -12,7 +12,8 @@
     width: 260px;
     height: 250px;
     margin: 10px;
-    border-style: inset ;
+    /* border-style: inset ; */
+    border-radius: 7%;
 }
 .card_img:hover{
     overflow: hidden;
