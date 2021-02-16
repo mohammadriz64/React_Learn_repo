@@ -14,6 +14,11 @@
     margin: 10px;
     border-style: inset ;
 }
+.card_img:hover{
+    overflow: hidden;
+    transform: scale(1.05);
+
+}
 .card_button{
     margin-bottom:20px ;
 }
