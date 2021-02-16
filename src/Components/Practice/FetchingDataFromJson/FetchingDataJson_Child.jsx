@@ -6,12 +6,15 @@ export const FetchingDataJson_Child = ({ itemCurrent }) => {
   return (
     <div className="card_data">
       <Card className="card_detailing">
+        <div className="inner">
+          
         <Card.Img
           className="card_img"
           variant="left"
           src={itemCurrent.image}
           alt="images"
-        />
+          />
+          </div>
         <Card.Body>
           <Card.Title>
             {itemCurrent.name} {itemCurrent.field}

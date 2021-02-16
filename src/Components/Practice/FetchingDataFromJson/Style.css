@@ -1,25 +1,27 @@
-.card_data{
-    display: inline-block;
-    font-size: 14px;
-    font-family: cursive;
+.card_data {
+  display: inline-block;
+  font-size: 14px;
+  font-family: cursive;
 }
-.card_detailing{
-    border-style: groove;
-    border-radius: 10px;
-    margin: 10px
+.card_detailing {
+  border-style: groove;
+  border-radius: 10px;
+  margin: 10px;
 }
-.card_img{
-    width: 260px;
-    height: 250px;
-    margin: 10px;
-    /* border-style: inset ; */
-    border-radius: 7%;
+.inner {
+  overflow: hidden;
 }
-.card_img:hover{
-    overflow: hidden;
-    transform: scale(1.05);
-
+.card_img {
+  width: 260px;
+  height: 250px;
+  margin: 10px;
+  /* border-style: inset ; */
+  border-radius: 7%;
+  transition: all 1.5s ease;
 }
-.card_button{
-    margin-bottom:20px ;
+.card_img:hover {
+  transform: scale(1.05);
+}
+.card_button {
+  margin-bottom: 20px;
 }
