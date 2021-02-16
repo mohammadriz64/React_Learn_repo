@@ -20,7 +20,7 @@ const IncDecNum = () => {
         <div>
             <div className="main_div">
                 <div className="center_div">
-                <h3>onClick Events</h3>
+                <h3 className="body_heading">onClick Events</h3>
                     <div className="btn_div">
                         <h1> {number} </h1>
                         <button className="btn_style" onClick={addNumber}>Addition</button>

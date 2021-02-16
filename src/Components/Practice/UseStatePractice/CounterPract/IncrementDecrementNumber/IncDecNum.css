@@ -33,6 +33,10 @@ h1{
     width: 100%;
     box-shadow: 5px 5px 15px -5px black;
 }
+.body_heading{
+    color: #30336b;
+    box-shadow: 5px 5px 15px -5px black;
+}
 .btn_style:hover{
     background-color: #22a6b3;
 
