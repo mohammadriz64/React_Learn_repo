@@ -1,4 +1,4 @@
-const addNewGroup =(name,id)=>({
+export const addNewGroup =(name,id)=>({
     // under double quotations must write capital letters
     type:"ADD_NEW_GROUP",
     groups:{
