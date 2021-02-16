@@ -5,7 +5,7 @@ const groupReducer = (state = groupsDefaultState, action) => {
             return {
                 ...state,
                 groups:[...state.groups,action.groups]
-            }
+            };
     }
 };
 
