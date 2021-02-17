@@ -5,7 +5,7 @@ export const configStore =()=>{
         combineReducers({
         groupReducer,
     }),
-    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX__REDUX_DEVTOOLS__EXTENSION__()
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
     );
     return store;
 
