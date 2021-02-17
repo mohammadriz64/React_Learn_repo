@@ -6,6 +6,8 @@ const groupReducer = (state = groupsDefaultState, action) => {
                 ...state,
                 groups:[...state.groups,action.groups]
             };
+            default:
+                return state;
     }
 };
 
