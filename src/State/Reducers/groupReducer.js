@@ -1,14 +1,13 @@
-const groupReducer = (State = groupsDefaultState, action) => {
+const groupReducer = (state = groupsDefaultState, action) => {
   switch (action.type) {
     case "ADD_NEW_GROUP":
       //(...)this triple dot is spread operator to copy state
       return {
-        ...State,
-        groups: [...State.groups, action.groups],
+        ...state,
+        groups: [...state.groups, action.groups],
       };
     default:
-      return State;
-      console.log("State")
+      return state;
   }
 };
 
