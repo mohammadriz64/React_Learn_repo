@@ -6,11 +6,11 @@ import reportWebVitals from './reportWebVitals';
 import {configStore} from "./State/Store/configStore";
 import {Provider} from 'react-redux';
 
-const store = configStore();
+// const store = configStore();
 
 ReactDOM.render(
   <React.StrictMode>
-    <Provider store={store}>
+    <Provider store={configStore()}>
     <App />
     </Provider>
   </React.StrictMode>,
