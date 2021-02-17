@@ -1,6 +1,6 @@
 import {createStore,combineReducers} from 'redux';
 import {groupReducer} from '../Reducers/groupReducer';
-export const configStore =()=>{
+export const configStore = () => {
     const store = createStore(
         combineReducers({
         groupReducer,
