@@ -1,3 +1,1 @@
-export const getAllGroups =(state)=>{
-    state.groupReducer.groups;
-}
+export const getAllGroups =(state)=>state.groupReducer.groups;

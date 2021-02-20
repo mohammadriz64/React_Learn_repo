@@ -1,8 +1,9 @@
 import React from 'react';
 
-const FetchingDataReduxChild = () => {
+const FetchingDataReduxChild = ({itemCurrent}) => {
     return (
         <div>
+
             
         </div>
     );
