@@ -3,9 +3,9 @@ import './Child.css';
 
 const FetchingDataReduxChild = ({itemCurrent}) => {
     return (
-        <div style={{display:"flex",flexDirection:"row",justifyContent:"space-around"}}>
+        <div className="data-container">
+            <img className="img_Bike" src={itemCurrent.image} alt="bike"/>
             <h3>{itemCurrent.name}</h3>
-            <img style={{width:"400px",height:"350px"}} src={itemCurrent.image} alt="bike"/>
         </div>
     );
 };
