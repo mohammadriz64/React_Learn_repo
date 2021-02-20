@@ -26,7 +26,7 @@ const groupsDefaultState = {
   groups: [
     { name: "Aadil", image: "BMW.jpg", desc: "working with redux" },
     { name: "Faazil", image: "kawasaki.jpg", desc: "living in bangaluru" },
-    { name: "Rizwam", image: "KTM.png", desc: "working with redux with Aadil" },
+    { name: "Rizwan", image: "KTM.png", desc: "working with redux with Aadil" },
   ],
 };
 
