@@ -4,6 +4,7 @@ import { ParentVarr } from "../Child/ParentVarr";
 import PropWithClass from '../Child/PropWithClass';
 import { CondRenParFun } from '../ConditinalRendering/CondRenParFun';
 import { FetchingDataJson_Parent } from '../Practice/FetchingDataFromJson/FetchingDataJson_Parent';
+import FetchingDataReduxPar from '../Practice/FetchingFromRedux/FetchingDataReduxPar';
 import { MapParent } from '../Practice/MapFunction/MapParent';
 import CounterPract from '../Practice/UseStatePractice/CounterPract/CounterPract';
 import {DisplayHide} from '../Practice/UseStatePractice/CounterPract/DisplayHide';
@@ -23,6 +24,7 @@ export const Landing = () => {
             <MapParent/>
             <FetchingDataJson_Parent/>
             <IncDecNum/>
+            <FetchingDataReduxPar/>
         </div>
     );
 };
