@@ -22,25 +22,19 @@
 //   ],
 // };
 
-const groupsDefaultState ={
-  groups:[
-    {name:"Aadil",
-     desc: "working with redux"
-  },
-    {name:"Faazil",
-     desc: "living in bangaluru"
-  },
-    {name:"Rizwam",
-     desc: "working with redux with Aadil"
-  },
+const groupsDefaultState = {
+  groups: [
+    { name: "Aadil", image: "BMW.jpg", desc: "working with redux" },
+    { name: "Faazil", image: "kawasaki.jpg", desc: "living in bangaluru" },
+    { name: "Rizwam", image: "KTM.png", desc: "working with redux with Aadil" },
   ],
 };
 
-export const groupReducer = (state=groupsDefaultState,action)=>{
-  switch (action.type){
+export const groupReducer = (state = groupsDefaultState, action) => {
+  switch (action.type) {
     case "ADD_NEW_GROUP":
-      return {...state,groups:[...state.groups,action.groups]};
-      default:
-        return state;
+      return { ...state, groups: [...state.groups, action.groups] };
+    default:
+      return state;
   }
-}
+};
