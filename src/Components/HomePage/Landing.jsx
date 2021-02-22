@@ -3,6 +3,7 @@ import PropsPar from '../Body/PropsPar';
 import { ParentVarr } from "../Child/ParentVarr";
 import PropWithClass from '../Child/PropWithClass';
 import { CondRenParFun } from '../ConditinalRendering/CondRenParFun';
+import Enable_Disable_Button from '../ConditinalRendering/Enable_Disable_Button';
 import { FetchingDataJson_Parent } from '../Practice/FetchingDataFromJson/FetchingDataJson_Parent';
 import FetchingDataReduxPar from '../Practice/FetchingFromRedux/FetchingDataReduxPar';
 import UserDataFetchingPar from '../Practice/FetchingFromRedux/UserDataFetchingPar';
@@ -27,6 +28,7 @@ export const Landing = () => {
             <IncDecNum/>
             <FetchingDataReduxPar/>
             <UserDataFetchingPar/>
+            <Enable_Disable_Button/>
         </div>
     );
 };
