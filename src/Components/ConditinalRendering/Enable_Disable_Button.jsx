@@ -10,7 +10,10 @@ export default class Enable_Disable_Button extends Component {
       if(e.target.value.length >=6) {
           this.setState({
               disabled: false
-          })
+          });
+      }
+      else{
+          
       }
   }
   render() {
