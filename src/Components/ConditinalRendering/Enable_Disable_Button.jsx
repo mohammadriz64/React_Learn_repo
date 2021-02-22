@@ -13,7 +13,10 @@ export default class Enable_Disable_Button extends Component {
           });
       }
       else{
-          
+          this.setState({
+              disabled: true
+          })
+
       }
   }
   render() {
