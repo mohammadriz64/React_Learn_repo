@@ -2,7 +2,9 @@ import React, { Component } from 'react'
 import './Enable_Disable.css';
 
 export default class Enable_Disable_Button extends Component {
-    
+    state = {
+        disabled: true
+    }
     render() {
         return (
             <div>
