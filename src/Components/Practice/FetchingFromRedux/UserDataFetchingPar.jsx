@@ -15,7 +15,7 @@ const UserDataFetchingPar = () => {
         <div>
             {userData&&userData.map((userItem)=>{
                 return <UserDataFetchingChild fetchUser={userItem}
-                key={userItem.id}/>
+                key={userItem.id}/>;
             })}
             
             
