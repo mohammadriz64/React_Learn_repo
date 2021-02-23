@@ -22,4 +22,25 @@
 //       },
 //     ],
 //   };
+
+const usersDefaultState={
+    users:[
+        {name:"React js",
+         description:"js library for UI"
+    },
+        {name:"Node js",
+         description:"js library for Backend"
+        },
+
+    ],
+};
+
+export const usersInGroupsReducer=(state=usersDefaultStat.action)=>{
+    switch (action.type){
+        case "ADD_NEW_USER":
+            return {...state,users:[...state.users,action.users]};
+                default:
+                    return state;
+    }
+};
   
