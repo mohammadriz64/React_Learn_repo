@@ -6,3 +6,11 @@
 //         id,
 //     },
 // });
+
+export const addNewUSer =(name,id)=>({
+    type:"ADD_NEW_USER",
+    users:{
+        name,
+        id,
+    },
+});
