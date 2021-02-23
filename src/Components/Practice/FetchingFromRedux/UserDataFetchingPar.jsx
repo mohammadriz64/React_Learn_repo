@@ -7,8 +7,10 @@ const UserDataFetchingPar = () => {
     const selector=useSelector(getAllUsers);
     const [userData,setUserData]=useState();
     useEffect(()=>{
-        setUserData(selector)
-    })
+        setUserData(selector);
+    },
+    [selector]
+    );
     return (
         <div>
             <UserDataFetchingChild/>
