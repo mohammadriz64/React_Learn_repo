@@ -1,9 +1,9 @@
 import React from 'react';
 
-const UserDataFetchingChild = () => {
+const UserDataFetchingChild = ({fetchUser}) => {
     return (
         <div>
-            
+            <p>Course:{fetchUser.name}</p>
         </div>
     );
 };
