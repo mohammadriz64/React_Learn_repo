@@ -3,7 +3,8 @@ import React from 'react';
 const UserDataFetchingChild = ({fetchUser}) => {
     return (
         <div>
-            <p>Course:{fetchUser.name}</p>
+            <h4>Course:{fetchUser.name}</h4>
+            <h6>description: {fetchUser.description}</h6>
         </div>
     );
 };
