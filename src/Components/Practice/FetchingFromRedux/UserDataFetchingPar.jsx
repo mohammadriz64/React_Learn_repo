@@ -5,7 +5,7 @@ import {getAllUsers} from '../../../State/Selector/usersInGroupSelector';
 
 const UserDataFetchingPar = () => {
     const selector=useSelector(getAllUsers);
-    
+    const [userData,setUserData]=useState();
     return (
         <div>
             <UserDataFetchingChild/>
