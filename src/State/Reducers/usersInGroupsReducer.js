@@ -35,7 +35,7 @@ const usersDefaultState={
     ],
 };
 
-export const usersInGroupsReducer=(state=usersDefaultStat.action)=>{
+export const usersInGroupsReducer = (state= usersDefaultStat.action)=>{
     switch (action.type){
         case "ADD_NEW_USER":
             return {...state,users:[...state.users,action.users]};
