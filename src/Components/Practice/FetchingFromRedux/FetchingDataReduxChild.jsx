@@ -5,7 +5,7 @@ const FetchingDataReduxChild = ({itemCurrent}) => {
     return (
         <div className="data-container">
             <img className="img_Bike" src={itemCurrent.image} alt="bike"/>
-            <h3>{itemCurrent.name}</h3>
+            <h3 className="head">{itemCurrent.name}</h3>
         </div>
     );
 };

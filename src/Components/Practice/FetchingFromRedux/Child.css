@@ -4,18 +4,19 @@ margin: 30px;
 overflow: hidden;
 border-style: double;
 border-color: darkred;
+box-shadow: 5px 5px 15px -5px black;
+z-index: 1;
 }
 .img_Bike{
     width: 350px;
     height: 300px;
-    box-shadow: 5px 5px 10px -5px black;
     transition: all 1.5s ease;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 img:hover{
-transform: scale(1.15);
+transform: scale(1.19);
 }
-h3{
+.head{
     background-color: rgb(26, 51, 2);
     color: rgb(223, 219, 219);
     font-size: 25px;
