@@ -13,7 +13,11 @@ const UserDataFetchingPar = () => {
     );
     return (
         <div>
-            <UserDataFetchingChild/>
+            {userData&&userData.map((userItem)=>{
+                return <UserDataFetchingChild fetchUser={userItem}
+                key={userItem.id}/>
+            })}
+            
             
         </div>
     );
