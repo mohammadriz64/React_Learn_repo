@@ -7,7 +7,7 @@
 //     },
 // });
 
-export const addNewUSer =(name,id)=>({
+export const addNewUser =(name,id)=>({
     type:"ADD_NEW_USER",
     users:{
         name,
