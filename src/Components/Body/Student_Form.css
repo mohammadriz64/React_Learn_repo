@@ -1,3 +1,8 @@
 .Acad_Heading{
     background-color: green;
+    font-weight: bold;
+}
+.student_input{
+    border: none;
+    border-bottom: 1px solid black;
 }
