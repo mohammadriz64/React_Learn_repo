@@ -19,7 +19,7 @@ export const Students_Admission_Form = () => {
         <label>Total Marks Obtained :</label>
         <input className="input_inline" type="text" />
         <label>Maximum Marks :</label>
-        <input className="input_inline" type="text" /> <br/>
+        <input className="input_inline" type="text" /> <br />
         <label>Passing Month :</label>
         <input className="input_inline" type="text" />
         <label>Year :</label>
@@ -29,7 +29,15 @@ export const Students_Admission_Form = () => {
         <label>Grade :</label>
         <input className="input_inline" type="text" />
       </form>
-      <p className="note_heading">(Note: Attach attested Photocopy of 12th/Diploma std marks card)</p>
+      <p className="note_heading">
+        (Note: Attach attested Photocopy of 12th/Diploma std marks card)
+      </p>
+      <p className="para_text">
+        Candidate should fill the details of marks obtained in each individual
+        subjects at Inter / 12th /Diploma std examinations in the following
+        table/ candidate seeking Direct second year admission can write
+        diploma/degree subjects and marks in the table
+      </p>
     </div>
   );
 };
