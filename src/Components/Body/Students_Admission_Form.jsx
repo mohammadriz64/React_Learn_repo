@@ -38,6 +38,18 @@ export const Students_Admission_Form = () => {
         table/ candidate seeking Direct second year admission can write
         diploma/degree subjects and marks in the table
       </p>
+      <table id="table_border" >
+          <tr >
+              <th className="table_row1">Subjects</th>
+              <th className="table_row">Marks Obtained</th>
+              <th className="table_row">Maximum Marks</th>
+          </tr>
+          <tr>
+              <td className="table_row1">English</td>
+              <td className="table_row"><input className="table_input" type="text"/></td>
+              <td className="table_row"><input className="table_input" type="text"/></td>
+          </tr>
+      </table>
     </div>
   );
 };
