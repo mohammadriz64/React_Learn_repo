@@ -97,6 +97,26 @@ export const Students_Admission_Form = () => {
       <label>Address :</label>
         <input className="address_input" type="text" /> <br />
         <input className="address_input" type="text" /> <br />
+        <label>City :</label>
+        <input className="input_inline" type="text" />
+        <label>Pin :</label>
+        <input className="input_inline" type="text" />
+        <label>Dist. :</label>
+        <input className="input_inline" type="text" />
+        <label>State :</label>
+        <input className="input_inline" type="text" /> <br/>
+        <label>Parent’s Landline phone No. :</label>
+        <input className="input_inline" type="text" />
+        <label>Pin :</label>
+        <input className="input_inline" type="text" /> <br/>
+        <label>City :</label>
+        <input className="input_inline" type="text" />
+        <label>Pin :</label>
+        <input className="input_inline" type="text" /> <br/>
+        <label>City :</label>
+        <input className="input_inline" type="text" />
+        <label>Pin :</label>
+        <input className="input_inline" type="text" />
       </form>
       
     </div>
