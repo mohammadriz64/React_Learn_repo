@@ -107,15 +107,15 @@ export const Students_Admission_Form = () => {
         <input className="input_inline" type="text" /> <br/>
         <label>Parent’s Landline phone No. :</label>
         <input className="input_inline" type="text" />
-        <label>Pin :</label>
+        <label>Parent’s Mobile No. :</label>
         <input className="input_inline" type="text" /> <br/>
-        <label>City :</label>
+        <label>Candidate’s Mobile No :</label>
         <input className="input_inline" type="text" />
-        <label>Pin :</label>
+        <label>E-mail Id :</label>
         <input className="input_inline" type="text" /> <br/>
-        <label>City :</label>
+        <label>Nearest Bus Station :</label>
         <input className="input_inline" type="text" />
-        <label>Pin :</label>
+        <label>Railway Station :</label>
         <input className="input_inline" type="text" />
       </form>
       
