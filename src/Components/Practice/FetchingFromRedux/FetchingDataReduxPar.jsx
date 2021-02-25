@@ -2,8 +2,6 @@ import React,{useEffect,useState} from 'react';
 import FetchingDataReduxChild from './FetchingDataReduxChild';
 import {useSelector} from 'react-redux';
 import {getAllGroups} from '../../../State/Selector/groupSelector';
-
-
 const FetchingDataReduxPar = () => {
     const selector =useSelector(getAllGroups);
     const [groupData,setGroupData]=useState();
