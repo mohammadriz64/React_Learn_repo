@@ -90,6 +90,10 @@ export const Students_Admission_Form = () => {
               <td className="table_row"><input className="table_input" type="text"/></td>
           </tr>
       </table>
+      <h3 className="after_Heading">
+      Address Details: ( Local Address )
+      </h3>
+      
     </div>
   );
 };
