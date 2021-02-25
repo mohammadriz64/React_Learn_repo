@@ -59,3 +59,11 @@
     margin-top: 40px;
 
 }
+.address_input{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 70rem;
+    margin: 10px;
+    padding: 5px;
+    outline: none;
+}

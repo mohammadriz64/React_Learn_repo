@@ -93,6 +93,11 @@ export const Students_Admission_Form = () => {
       <h3 className="after_Heading">
       Address Details: ( Local Address )
       </h3>
+      <form>
+      <label>Address :</label>
+        <input className="address_input" type="text" /> <br />
+        <input className="address_input" type="text" /> <br />
+      </form>
       
     </div>
   );
