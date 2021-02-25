@@ -29,6 +29,7 @@ export const Students_Admission_Form = () => {
         <label>Grade :</label>
         <input className="input_inline" type="text" />
       </form>
+      <p className="note_heading">(Note: Attach attested Photocopy of 12th/Diploma std marks card)</p>
     </div>
   );
 };
