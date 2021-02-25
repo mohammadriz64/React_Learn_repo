@@ -4,7 +4,7 @@ import "./Student_Form.css";
 export const Students_Admission_Form = () => {
   return (
     <div>
-      <h3 className="Acad_Heading">
+      <h3 className="Main_Heading">
         Academic Details:(Inter/12th Std. Details)
       </h3>
       <form>
