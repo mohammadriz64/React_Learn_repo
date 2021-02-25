@@ -118,6 +118,35 @@ export const Students_Admission_Form = () => {
         <label>Railway Station :</label>
         <input className="input_inline" type="text" />
       </form>
+      <h3 className="after_Heading">
+      Address Details: ( Permanent Address )
+      </h3>
+      <form>
+      <label>Address :</label>
+        <input className="address_input" type="text" /> <br />
+        <input className="address_input" type="text" /> <br />
+        <label>City :</label>
+        <input className="input_inline" type="text" />
+        <label>Pin :</label>
+        <input className="input_inline" type="text" />
+        <label>Dist. :</label>
+        <input className="input_inline" type="text" />
+        <label>State :</label>
+        <input className="input_inline" type="text" /> <br/>
+        <label>Parent’s Landline phone No. :</label>
+        <input className="input_inline" type="text" />
+        <label>Parent’s Mobile No. :</label>
+        <input className="input_inline" type="text" /> <br/>
+        <label>Candidate’s Mobile No :</label>
+        <input className="input_inline" type="text" />
+        <label>E-mail Id :</label>
+        <input className="input_inline" type="text" /> <br/>
+        <label>Nearest Bus Station :</label>
+        <input className="input_inline" type="text" />
+        <label>Railway Station :</label>
+        <input className="input_inline" type="text" />
+      </form>
+       <hr/>
       
     </div>
   );
