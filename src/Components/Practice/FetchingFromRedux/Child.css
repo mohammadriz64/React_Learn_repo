@@ -6,6 +6,7 @@ border-style: double;
 border-color: darkred;
 box-shadow: 5px 5px 15px -5px black;
 z-index: 1;
+text-align: center;
 }
 .img_Bike{
     width: 350px;
@@ -21,7 +22,7 @@ transform: scale(1.19);
     color: rgb(223, 219, 219);
     font-size: 25px;
 }
-h3:hover{
+.head:hover{
     background-color: darkgrey;
     color:rgb(26, 51, 2) ;
 }
