@@ -29,3 +29,6 @@
     font-size: 18px;
     margin-top: 30px;
 }
+.table_input{
+    outline: none;
+}
