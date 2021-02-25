@@ -49,6 +49,46 @@ export const Students_Admission_Form = () => {
               <td className="table_row"><input className="table_input" type="text"/></td>
               <td className="table_row"><input className="table_input" type="text"/></td>
           </tr>
+          <tr>
+              <td className="table_row1">English</td>
+              <td className="table_row"><input className="table_input" type="text"/></td>
+              <td className="table_row"><input className="table_input" type="text"/></td>
+          </tr>
+          <tr>
+              <td className="table_row1">Physics</td>
+              <td className="table_row"><input className="table_input" type="text"/></td>
+              <td className="table_row"><input className="table_input" type="text"/></td>
+          </tr>
+          <tr>
+              <td className="table_row1">Chemistry</td>
+              <td className="table_row"><input className="table_input" type="text"/></td>
+              <td className="table_row"><input className="table_input" type="text"/></td>
+          </tr>
+          <tr>
+              <td className="table_row1">MAthematics</td>
+              <td className="table_row"><input className="table_input" type="text"/></td>
+              <td className="table_row"><input className="table_input" type="text"/></td>
+          </tr>
+          <tr>
+              <td className="table_row1">Biology</td>
+              <td className="table_row"><input className="table_input" type="text"/></td>
+              <td className="table_row"><input className="table_input" type="text"/></td>
+          </tr>
+          <tr>
+              <td className="table_row1">Computer Science</td>
+              <td className="table_row"><input className="table_input" type="text"/></td>
+              <td className="table_row"><input className="table_input" type="text"/></td>
+          </tr>
+          <tr>
+              <td className="table_row1">Other</td>
+              <td className="table_row"><input className="table_input" type="text"/></td>
+              <td className="table_row"><input className="table_input" type="text"/></td>
+          </tr>
+          <tr>
+              <td className="table_row1">Other</td>
+              <td className="table_row"><input className="table_input" type="text"/></td>
+              <td className="table_row"><input className="table_input" type="text"/></td>
+          </tr>
       </table>
     </div>
   );
