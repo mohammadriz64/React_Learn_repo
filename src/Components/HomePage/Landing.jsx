@@ -1,5 +1,6 @@
 import React from 'react';
 import PropsPar from '../Body/PropsPar';
+import { Students_Admission_Form } from '../Body/Students_Admission_Form';
 import { ParentVarr } from "../Child/ParentVarr";
 import PropWithClass from '../Child/PropWithClass';
 import { CondRenParFun } from '../ConditinalRendering/CondRenParFun';
@@ -16,6 +17,7 @@ import ClassCompParent from '../PropsWithClassComp/ClassCompParent';
 export const Landing = () => {
     return (
         <div>
+            <Students_Admission_Form/>
             <ParentVarr />
             <ClassCompParent />
             <PropsPar/>
