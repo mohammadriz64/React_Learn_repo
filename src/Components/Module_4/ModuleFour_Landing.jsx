@@ -1,5 +1,6 @@
 import React, { memo } from 'react';
 import { Row, Col } from 'react-bootstrap';
+import CondRender_Par_F from './Conditional_rendering_Function/A-ConditionalRendering_TernaryMethod/CondRender_Par_F';
 
 const ModuleFour_Landing = () => {
     return (
@@ -7,6 +8,7 @@ const ModuleFour_Landing = () => {
             <h2>Conditional Rending</h2>
             <Row>
                 <Col xs={6} lg={6} md={6}>
+                    <CondRender_Par_F />
 
                 </Col>
             </Row>
