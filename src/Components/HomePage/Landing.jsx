@@ -1,4 +1,5 @@
 import React from 'react';
+import Delete_User from '../Body/Delete_User';
 import PropsPar from '../Body/PropsPar';
 import { Students_Admission_Form } from '../Body/Students_Admission_Form';
 import { ParentVarr } from "../Child/ParentVarr";
@@ -17,6 +18,7 @@ import ClassCompParent from '../PropsWithClassComp/ClassCompParent';
 export const Landing = () => {
     return (
         <div>
+            <Delete_User/>
             <Students_Admission_Form/>
             <ParentVarr />
             <ClassCompParent />
