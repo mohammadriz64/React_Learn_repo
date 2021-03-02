@@ -6,6 +6,7 @@ import { ParentVarr } from "../Child/ParentVarr";
 import PropWithClass from '../Child/PropWithClass';
 import { CondRenParFun } from '../ConditinalRendering/CondRenParFun';
 import Enable_Disable_Button from '../ConditinalRendering/Enable_Disable_Button';
+import ModuleFour_Landing from '../Module_4/ModuleFour_Landing';
 import { FetchingDataJson_Parent } from '../Practice/FetchingDataFromJson/FetchingDataJson_Parent';
 import FetchingDataReduxPar from '../Practice/FetchingFromRedux/FetchingDataReduxPar';
 import UserDataFetchingPar from '../Practice/FetchingFromRedux/UserDataFetchingPar';
@@ -19,6 +20,7 @@ export const Landing = () => {
     return (
         <div>
             <Delete_User />
+            <ModuleFour_Landing />
             {/* <Students_Admission_Form/> */}
             <ParentVarr />
             <ClassCompParent />
