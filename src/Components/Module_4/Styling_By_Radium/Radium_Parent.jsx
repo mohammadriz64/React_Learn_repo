@@ -16,11 +16,7 @@ const Radium_Parent = () => {
         textAlign: "center",
         width: "600px",
         position: "relative",
-        left: "25%",
-        ":hover": {
-            width: "800px"
-
-        }
+        left: "25%"
     }
     return (
         <div style={divStyle}>
