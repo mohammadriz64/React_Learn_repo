@@ -3,7 +3,7 @@ import Radium from 'radium';
 const Radium_Parent = () => {
     const styleButton = {
         backgroundColor: "hotpink",
-        boxShadow: "2px 2px 2px 3px black",
+        boxShadow: "0px 0px 2px 3px black",
         ":hover": {
             backgroundColor: "red"
 

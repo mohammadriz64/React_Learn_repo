@@ -1,34 +1,34 @@
-import React,{useState} from 'react';
+import React, { useState } from 'react';
 import './IncDecNum.css';
 
 const IncDecNum = () => {
-    const [number,setNumber] = useState(0);
+    const [number, setNumber] = useState(0);
 
-   const addNumber=()=>{
-        setNumber(number+1);
+    const addNumber = () => {
+        setNumber(number + 1);
     }
-   const subNumber=()=>{
-       if(number>0){
-        setNumber(number-1);
-       }else{
-           alert('Sorry.Limit Reached.!!!')
-           setNumber(0);
-       }
+    const subNumber = () => {
+        if (number > 0) {
+            setNumber(number - 1);
+        } else {
+            alert('Sorry.Limit Reached.!!!')
+            setNumber(0);
+        }
     }
 
     return (
         <div>
             <div className="main_div">
                 <div className="center_div">
-                <h3 className="body_heading">onClick Events</h3>
+                    <h3 className="body_heading">onClick Events</h3>
                     <div className="btn_div">
-                        <h1> {number} </h1>
+                        <h1 className="num"> {number} </h1>
                         <button className="btn_style" onClick={addNumber}>Addition</button>
                         <button className="btn_style" onClick={subNumber}>Subtraction</button>
                     </div>
                 </div>
             </div>
-            
+
         </div>
     );
 };
