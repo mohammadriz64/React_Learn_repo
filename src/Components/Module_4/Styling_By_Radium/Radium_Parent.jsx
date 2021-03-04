@@ -9,8 +9,21 @@ const Radium_Parent = () => {
 
         }
     };
+    const divStyle = {
+        border: "1px solid grey",
+        backgroundColor: "lightgrey",
+        zIndex: "1",
+        textAlign: "center",
+        width: "600px",
+        position: "relative",
+        left: "25%",
+        ":hover": {
+            width: "800px"
+
+        }
+    }
     return (
-        <div>
+        <div style={divStyle}>
             <h1>Radium Module Practice</h1>
             <button style={styleButton}>submit</button>
 
