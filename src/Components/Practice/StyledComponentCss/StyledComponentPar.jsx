@@ -6,7 +6,7 @@ const StyledComponentPar = () => {
     background-color:green;
     &:hover{
         background-color:yellow;
-        color:white;
+        color:blue;
     },
     `
     const ColorMe = styled.h3`
