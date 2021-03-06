@@ -4,7 +4,6 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './Gallery.css';
-// import { baseUrl } from "./config";
 
 
 export default class Gallery_Images extends Component {
@@ -13,7 +12,6 @@ export default class Gallery_Images extends Component {
             dots: true,
             fade: true,
             arrows: true,
-            // dotsClass: "slick-dots slick-thumb",
             infinite: true,
             autoplay: true,
             speed: 2000,
