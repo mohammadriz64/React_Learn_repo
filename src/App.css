@@ -7,12 +7,12 @@ button{
   margin: 15px;
   border-radius: 10px;
 }
-button:hover{
+/* button:hover{
   color: greenyellow;
   background-color: rgb(90, 88, 88);
   box-shadow: 5px 5px 10px black;
-  /* transform: scale(1.2); */
-}
+  /* transform: scale(1.2);
+ } */
 .App-logo {
   height: 40vmin;
   pointer-events: none;

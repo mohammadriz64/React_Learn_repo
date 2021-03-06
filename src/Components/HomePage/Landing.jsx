@@ -8,6 +8,7 @@ import { CondRenParFun } from '../ConditinalRendering/CondRenParFun';
 import Enable_Disable_Button from '../ConditinalRendering/Enable_Disable_Button';
 import ModuleFour_Landing from '../Module_4/ModuleFour_Landing';
 import { FetchingDataJson_Parent } from '../Practice/FetchingDataFromJson/FetchingDataJson_Parent';
+import Gallery_Images from '../Practice/FetchingDataFromJson/Gallery_Images';
 import FetchingDataReduxPar from '../Practice/FetchingFromRedux/FetchingDataReduxPar';
 import UserDataFetchingPar from '../Practice/FetchingFromRedux/UserDataFetchingPar';
 import { MapParent } from '../Practice/MapFunction/MapParent';
@@ -20,10 +21,10 @@ import ClassCompParent from '../PropsWithClassComp/ClassCompParent';
 export const Landing = () => {
     return (
         <div>
-            <Delete_User />
-            <ModuleFour_Landing />
+            {/* <Delete_User />
+            <ModuleFour_Landing /> */}
             {/* <Students_Admission_Form/> */}
-            <ParentVarr />
+            {/* <ParentVarr />
             <ClassCompParent />
             <PropsPar />
             <CondRenParFun />
@@ -36,7 +37,8 @@ export const Landing = () => {
             <FetchingDataReduxPar />
             <UserDataFetchingPar />
             <Enable_Disable_Button />
-            <StyledComponentPar />
+            <StyledComponentPar /> */}
+            <Gallery_Images />
         </div>
     );
 };

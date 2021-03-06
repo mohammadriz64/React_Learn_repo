@@ -1,0 +1,7 @@
+.picSize{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 5%;
+    box-shadow: 0px 0px 5px -7px rgb(94, 92, 92);
+}
