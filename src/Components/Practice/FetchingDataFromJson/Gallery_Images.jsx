@@ -15,13 +15,13 @@ export default class Gallery_Images extends Component {
             infinite: true,
             autoplay: true,
             speed: 2000,
-            autoplaySpeed: 800,
+            autoplaySpeed: 900,
             slidesToShow: 1,
             slidesToScroll: 1
         };
         return (
             <div>
-                <Slider {...settings}>
+                <Slider className="backg" {...settings}>
                     {Gallery_Img.galleryData.map((items) => {
                         return (
                             <div>

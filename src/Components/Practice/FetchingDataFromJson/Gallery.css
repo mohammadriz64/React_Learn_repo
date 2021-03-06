@@ -1,7 +1,19 @@
-.picSize{
-    width: 400px;
-    height: 400px;
+.backg{
+    width: 600px;
     margin: auto;
+    
+}
+.slick-next:before{
+    color: black;
+}
+.slick-prev:before{
+    color: black;
+
+}
+.picSize{
+    margin: auto;
+    height: 400px;
+    width: 500px;
     margin-top: 5%;
-    box-shadow: 0px 0px 5px -7px rgb(94, 92, 92);
+    box-shadow: 2px 2px 5px -7px rgb(15, 15, 15);
 }
