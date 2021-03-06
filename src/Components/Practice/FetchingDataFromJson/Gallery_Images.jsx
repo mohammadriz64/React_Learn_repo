@@ -11,7 +11,6 @@ export default class Gallery_Images extends Component {
         const settings = {
             dots: true,
             fade: true,
-            arrows: true,
             infinite: true,
             autoplay: true,
             speed: 2000,
