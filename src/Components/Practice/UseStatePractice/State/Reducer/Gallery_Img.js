@@ -21,6 +21,18 @@ export const Gallery_Img={
         img:"https://i.pinimg.com/originals/c1/ba/4d/c1ba4d0fb26a8a9742cb5f5d6c7cb7da.jpg"
     },
     {
+        id:"123pqr",
+        img:"https://i.pinimg.com/originals/c1/ba/4d/c1ba4d0fb26a8a9742cb5f5d6c7cb7da.jpg"
+    },
+    {
+        id:"123pqr",
+        img:"https://i.pinimg.com/originals/c1/ba/4d/c1ba4d0fb26a8a9742cb5f5d6c7cb7da.jpg"
+    },
+    {
+        id:"123pqr",
+        img:"https://i.pinimg.com/originals/c1/ba/4d/c1ba4d0fb26a8a9742cb5f5d6c7cb7da.jpg"
+    },
+    {
         id:"123stv",
         img:"https://www.ultrahdwallpaper.in/uploads/cache/4214097464/Deadpool-2-HD-Wallpaper-400x270-MM-100.jpg"
     },
