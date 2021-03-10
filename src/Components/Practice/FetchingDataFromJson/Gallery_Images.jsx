@@ -10,23 +10,27 @@ export default class Gallery_Images extends Component {
     render() {
         const settings = {
             dots: true,
-            // fade: true,
+            fade: true,
             infinite: true,
             autoplay: true,
-            // speed: 1000,
-            // autoplaySpeed: 2000,
-            slidesToShow: 2,
+            speed: 1000,
+            autoplaySpeed: 2000,
+            slidesToShow: 1,
             slidesToScroll: 1,
-            // pauseOnHover: true,
-            vertical: true,
-            verticalSwiping: true,
-            swipeToSlide: true,
-            beforeChange: function (currentSlide, nextSlide) {
-                console.log("before change", currentSlide, nextSlide);
-            },
-            afterChange: function (currentSlide) {
-                console.log("after change", currentSlide);
-            }
+            pauseOnHover: true,
+            // vertical slider
+
+            // vertical: true,
+            // verticalSwiping: true,
+            // swipeToSlide: true,
+            // beforeChange: function (currentSlide, nextSlide) {
+            //     console.log("before change", currentSlide, nextSlide);
+            // },
+            // afterChange: function (currentSlide) {
+            //     console.log("after change", currentSlide);
+            // }
+
+            // vertical slider
 
             // new setting for pauseOnHover
             // dots: true,
@@ -36,7 +40,7 @@ export default class Gallery_Images extends Component {
             // autoplay: true,
             // autoplaySpeed: 2000,
             // pauseOnHover: true
-            // setting end here for pauseOnHover
+            // new setting end here for pauseOnHover
         };
         return (
             <div>

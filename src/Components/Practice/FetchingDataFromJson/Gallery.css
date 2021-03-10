@@ -1,6 +1,5 @@
 .backg{
     width: 650px;
-    height: 300px;
     margin: auto;
     
 }
@@ -13,7 +12,7 @@
 }
 .picSize{
     margin: auto;
-    height: 300px;
+    height: 400px;
     width: 600px;
     margin-top: 10%;
     box-shadow: 2px 2px 5px -7px rgb(15, 15, 15);
